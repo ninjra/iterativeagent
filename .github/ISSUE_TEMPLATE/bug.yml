@@ -1,0 +1,22 @@
+name: Bug report
+description: Report a bug
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe the bug and steps to reproduce.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Environment
+      placeholder: Windows 11, .NET 8.x
+    validations:
+      required: true
