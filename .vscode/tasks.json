@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Check",
+      "type": "shell",
+      "command": ".\\dev.ps1",
+      "args": ["check"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Run",
+      "type": "shell",
+      "command": ".\\dev.ps1",
+      "args": ["run"],
+      "problemMatcher": []
+    }
+  ]
+}
